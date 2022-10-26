@@ -1,0 +1,92 @@
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+	z-index:  1000;
+	height: 700px;
+	width: 70%;
+	margin: auto auto !important;
+}
+
+.main-wrapper {
+	display: flex;
+	height: 100%;
+	width: 100%;  
+}
+
+.left-section-wrapper {
+	background: #EDF3F9;
+	width: 25%;
+}
+
+.map-container {
+	height: 100%;
+}
+
+.marker {
+	background-image: url('https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.right-section-wrapper {
+	padding: 5px 40px 40px;
+}
+
+.common-wrapper {
+	padding: 10px;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+}
+.modal-wrapper {
+	display: flex;
+}
+
+.buttons {
+	background: #1361B0;
+	color: #fff;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.input-cls {
+	width: 500px;
+	padding: 7px 2px;
+	border-radius: 5px;
+	border-color: #5d99ba;
+	color: #2c4958;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.marker-header {
+  color: #305163;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.section-cls {
+	overflow: auto;
+  width: 70%;
+}
+
+.drpdown{
+	width: 500px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
