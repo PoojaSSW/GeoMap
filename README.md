@@ -7,9 +7,15 @@ The tech-stack used:
 The Data is a JSON file exported to view the live object entries and #Websocket used to connect to the web server for live Stream data.
 
 Quick Overview
-cd GeoMap
-npm install
-npm run build # to get production build
-npm start
+
+#cd GeoMap
+
+#npm install
+
+#npm run build - to get production build
+
+#npm start
+
 
 Then open http://localhost:3000/ to see this app.
+
